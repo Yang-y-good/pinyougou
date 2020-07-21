@@ -58,7 +58,6 @@
 	position: relative;
 	height: 105px;
 	width: 1200px;
-	line-height: 105px;
 	margin: 0 auto;
 }
 /* logo定位 */
@@ -67,7 +66,7 @@
 	top: 25px;
 	left: 0px;
 }
-.logo a{
+.logo h1{
 	display: block;
 	text-indent: -9999px;
 	overflow: hidden;
@@ -80,7 +79,6 @@
 	top: 35px;
 	left: 50%;
 	margin-left: -269px;
-	line-height: 35px;
 }
 .search input{
 	padding-left: 10px;

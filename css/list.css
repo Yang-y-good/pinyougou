@@ -1,0 +1,101 @@
+/* 秒杀模块定位 */
+.ks{
+	position: absolute;
+	top: 40px;
+	left: 190px;
+	border-left: 1px solid #c81523;
+	padding: 3px 0 0 13px;
+}
+.nav{
+	line-height: 45px;
+}
+.sk_list ul li{
+	float: left;
+}
+.sk_list ul li a{
+	display:block;
+	padding-right: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.sk_list ul li:nth-child(1){
+	padding-left: 25px;
+}
+.sk_con{
+	float: right;
+}
+.sk_con ul li{
+	display: inline-block;
+}
+.sk_con ul li a{
+	
+	padding-left: 40px;
+	font-size: 14px;
+}
+.sk_con ul li:last-child{
+	padding-right: 60px;
+}
+.sk_con ul li:last-child a::after{
+	content: '\e658';
+	font-family: "iconfont";
+}
+.sk_bd_1 ul li{
+	float: left;
+	width: 290px;
+	height: 458px;
+	margin: 0 5px;
+	
+}
+.sk_bd_1 ul li:hover{
+	border: 1px solid red;
+}
+.sk_bd_top{
+	overflow: hidden;
+	height: 290px;
+}
+.sk_bd_1 p{
+	display: block;
+	font-size: 14px;
+	color: #828282;
+	padding: 0 3px;
+}
+.sk_bd_1 span{
+	display: block;
+	font-size: 22px;
+	color: #e60012;
+	padding: 5px 5px;
+}
+.sk_bd_1 span s{
+	display: inline-block;
+	font-size: 14px;
+	color: #828282;	
+}
+.sk_bd_1 p i{
+	display: inline-block;
+	height: 12px;
+	width: 130px;
+	overflow: hidden;
+	border: 1px solid red;
+	border-radius: 10px;
+	margin: 0 8px;
+}
+.sk_bd_1 p i b{
+	display: block;
+	overflow: hidden;
+	height: 12px;
+	width: 110px;
+	border-radius: 10px;
+	background-color: red;
+}
+.sk_bd_1 a{
+	display: block;
+	margin-top: 11px;
+	height: 50px;
+	width: 290px;
+	background-color: #b1191a;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}

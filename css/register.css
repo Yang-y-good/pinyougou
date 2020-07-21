@@ -1,0 +1,130 @@
+/* 版心 */
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.style_red {
+	color: #c81623;
+}
+.header{
+	height: 80px;
+	border-bottom: 2px solid #b1191a;
+	line-height:80px
+}
+.main{
+	margin-top: 15px;
+	height: 518px;
+	border: 1px solid #dfdfdf;
+}
+.main_top{
+	height: 42px;
+	background-color: #ececec;
+	line-height: 42px;
+}
+.main_top span{
+	float: left;
+	font-size: 18px;
+	padding-left: 5px;
+}
+.main_top .main_right{
+	float: right;
+	font-size: 14px;
+	padding-right: 5px;
+}
+.reg_form{
+	width: 600px;
+	/* background-color: pink; */
+	margin: 50px auto 0;
+}
+.reg_form ul li{
+	margin-bottom: 20px;
+}
+.reg_form ul li label{
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+}
+.reg_form ul li .inp{
+	height: 36px;
+	width: 240px;
+}
+.reg_form ul li span{
+	display: inline-block;
+	color: #df3033;
+}
+.error_icon{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin-top: -3px;
+	background: url(../images/error.png) no-repeat;
+}
+.reg_form ul li .success{
+	color: green;
+}
+.success_icon{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin-top: -3px;
+	background: url(../images/success.png) no-repeat;
+}
+.safe{
+	padding-left: 155px;
+}
+.safe em{
+	padding: 0 12px;
+	color: #FFFFFF;
+}
+.em_red{
+	background-color: #de1111;
+}
+.em_green{
+	background-color: #40b83f;
+}
+.em_oring{
+	background-color: #f79100;
+}
+.reg_xieyi{
+	padding-left: 80px;
+}
+.reg_xieyi input{
+	vertical-align: middle;
+	margin-right: 5px;
+	color: #1ba1e6;
+}
+.reg_xieyi a{
+	color: #1ba1e6;
+}
+.btn{
+	height: 35px;
+	width: 200px;
+	background-color: #c81623;
+	color: #FFFFFF;
+	border: 0px;
+	margin: 30px 0 0 90px;
+}
+
+/* 底部模块下方定位 */
+.mod_copyright{
+	width: 1000px;
+	height: 80px;
+	margin: 15px auto;
+}
+.mod_copyright div{
+	height: 25px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+.mod_copyright div ul li{
+	float: left;
+}
+.mod_copyright div ul li:nth-child(even) {
+	width: 1px;
+	height: 12px;
+	background-color: #666666;
+	margin: 3px 12px 0;
+}
