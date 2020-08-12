@@ -11,6 +11,7 @@
 .w {
 	width: 1200px;
 	margin: 0 auto;
+	
 }
 
 .style_red {
@@ -23,12 +24,18 @@
 
 .fr {
 	float: right;
+	background-color: #f1f1f1;
 }
 
 /*  快捷导航模块  */
 .shortcu {
 	height: 30px;
 	line-height: 30px;
+	background-color: #f1f1f1;
+	
+}
+
+.shortcu .w{
 	background-color: #f1f1f1;
 }
 
@@ -212,6 +219,9 @@
 /* 底部模块定位 */
 .footer{
 	height: 417px;
+	background-color: #f5f5f5;
+}
+.footer .w{
 	background-color: #f5f5f5;
 }
 /* 底部模块上方定位 */
